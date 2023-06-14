@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title> AdNU Forda-Students Calculator</title>
+  </head>
+
+  <body>
 
     <style>
+      
       .header-container {
         display: flex;
         align-items: center;
@@ -20,10 +24,17 @@
         margin-right: 20px;
       }
 
+      .calculator-button {
+      background-color: #003A6C;
+      color: white;
+      padding: 7px 15px;
+      font-size: 16px;
+      border: #F2F9FF;
+      cursor: pointer;
+    }
+
     </style>
 
-  </head>
-  <body>
     <div class="header-container">
       <img src="./images/adnu-logo.png">
       <h1><b> AdNU Forda-Students Calculator</b></h1>
@@ -32,8 +43,9 @@
 
     <p>Hi, everyone! This is a web application that predicts and 
       calculate your grades per subject and your overall QPI per semester.</p>
-    <hr> <br>
-    <h3>QPI CALCULATOR</h3>
-   
+    <hr>
+
+    <button id="grade-calculator-btn" class="calculator-button">Grade Calculator</button>
+    <button id="qpi-calculator-btn" class="calculator-button">QPI Calculator</button>
   </body>
 </html>
